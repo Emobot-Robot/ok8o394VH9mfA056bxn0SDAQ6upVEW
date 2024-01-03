@@ -37,16 +37,16 @@ where  `<ABSOLUTE_PATH_TO_YOUR_WORKING_FOLDER>` is the absolute path to the work
 - **Windows**
 
 	```bash
-	python -m venv env
-	source env/Scripts/activate
+	python -m venv venv
+	source venv/Scripts/activate
 	python -m pip install label-studio
 	```
-	**NOTE : If your are using the default Command Prompt** instead of a bash Command Prompt, you need to replace `source` with `call` in the above command, like this : `call env/Scripts/activate`
+	**NOTE : If your are using the default Command Prompt** instead of a bash Command Prompt, you need to replace `source` with `call` in the above command, like this : `call venv/Scripts/activate`
 
 - **Linux/MacOS**
 	```bash
-	python -m venv env
-	source env/bin/activate
+	python -m venv venv
+	source venv/bin/activate
 	python -m pip install label-studio
 	```
 
@@ -57,10 +57,10 @@ where  `<ABSOLUTE_PATH_TO_YOUR_WORKING_FOLDER>` is the absolute path to the work
 
 2. If you installed Label Studio in a **virtualenv**, you need to activate it :
 	- Windows : 
-		- Default Command Prompt : `call env/Scripts/activate`
-		- Bash Command Prompt : `source env/Scripts/activate`
+		- Default Command Prompt : `call venv/Scripts/activate`
+		- Bash Command Prompt : `source venv/Scripts/activate`
 		
-	- Linux/MacOS : `source env/bin/activate`
+	- Linux/MacOS : `source venv/bin/activate`
 
 3. **Execute** these two commands :
 
